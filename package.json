@@ -18,6 +18,19 @@
 		"react-dom": "^16.13.1",
 		"react-scripts": "3.4.3"
 	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb-base": "^14.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-loader": "^4.0.2",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-react": "^7.20.6",
+		"flowtype": "^2.0.0",
+		"husky": "^4.3.0",
+		"lint-staged": "^10.4.0",
+		"prettier": "^2.1.2"
+	},
 	"browserslist": {
 		"production": [
 			">0.2%",
@@ -38,17 +51,5 @@
 	"lint-staged": {
 		"*.{json,js,jsx}": "prettier --write",
 		"*.{js,jsx}": "eslint --fix"
-	},
-	"devDependencies": {
-		"eslint": "^6.8.0",
-		"eslint-config-airbnb-base": "^14.2.0",
-		"eslint-config-prettier": "^6.11.0",
-		"eslint-loader": "^4.0.2",
-		"eslint-plugin-import": "^2.22.0",
-		"eslint-plugin-prettier": "^3.1.4",
-		"eslint-plugin-react": "^7.20.6",
-		"husky": "^4.3.0",
-		"lint-staged": "^10.4.0",
-		"prettier": "^2.1.2"
 	}
 }
