@@ -34,10 +34,14 @@ For **production** mode we need a few extra steps:
     ```bash
     $ npm run build
     ```
-2. Serve build directory:
+2. Go to directory:
+    ```bash
+    $ cd build
+    ```
+3. Serve build directory:
     ```bash
     # with NodeJS
-    $ npx http-sever ./build -p 3000
+    $ npx http-sever . -p 3000
 
     # with Python
     $ python -m SimpleHTTPServer 3000
@@ -45,7 +49,7 @@ For **production** mode we need a few extra steps:
     # with PHP
     $ php -S localhost:3000
     ```
-3. open [localhost:3000](http://localhost:3000)
+4. open [localhost:3000](http://localhost:3000)
 
 
 ### Technology Decisions
