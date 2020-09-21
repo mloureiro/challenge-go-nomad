@@ -1,6 +1,6 @@
 import { buildUrl, objectToQueryParameters } from '../utils';
 
-const API_BASE_URL = 'http://dataservice.accuweather.com';
+const API_BASE_URL = 'https://dataservice.accuweather.com';
 
 export const client = ({ apiKey }) => ({
 	service,
