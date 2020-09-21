@@ -1,0 +1,8 @@
+.destination--wrapper {
+  margin: 1rem;
+}
+
+.destination--wrapper > h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
