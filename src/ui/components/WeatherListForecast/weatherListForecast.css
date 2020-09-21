@@ -1,0 +1,21 @@
+.weather-list-forecast--wrapper {
+  font-size: 0.7rem;
+}
+
+.weather-list-forecast--date {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 24rem) and (max-width: 30rem) {
+  .weather-list-forecast--wrapper {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 30rem) {
+  .weather-list-forecast--wrapper {
+    font-size: 1rem;
+  }
+}
