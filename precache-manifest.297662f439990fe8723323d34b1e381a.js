@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18f31eefd3c995cc96f8001b896debc5",
+    "revision": "649f3a236f8f2acaa5a52b71428e782c",
     "url": "/go-nomad/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/go-nomad/static/css/2.16a4541a.chunk.css"
   },
   {
-    "revision": "45e732d59507bd338fce",
+    "revision": "99ba23ca6dbceae4a16a",
     "url": "/go-nomad/static/css/main.9ebb7a61.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/go-nomad/static/js/2.3427e5c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45e732d59507bd338fce",
-    "url": "/go-nomad/static/js/main.5888bffd.chunk.js"
+    "revision": "99ba23ca6dbceae4a16a",
+    "url": "/go-nomad/static/js/main.6147f4b2.chunk.js"
   },
   {
     "revision": "756e9970280e3200e7e1",

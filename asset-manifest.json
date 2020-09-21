@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/go-nomad/static/css/main.9ebb7a61.chunk.css",
-    "main.js": "/go-nomad/static/js/main.5888bffd.chunk.js",
-    "main.js.map": "/go-nomad/static/js/main.5888bffd.chunk.js.map",
+    "main.js": "/go-nomad/static/js/main.6147f4b2.chunk.js",
+    "main.js.map": "/go-nomad/static/js/main.6147f4b2.chunk.js.map",
     "runtime-main.js": "/go-nomad/static/js/runtime-main.d82b5eed.js",
     "runtime-main.js.map": "/go-nomad/static/js/runtime-main.d82b5eed.js.map",
     "static/css/2.16a4541a.chunk.css": "/go-nomad/static/css/2.16a4541a.chunk.css",
     "static/js/2.3427e5c6.chunk.js": "/go-nomad/static/js/2.3427e5c6.chunk.js",
     "static/js/2.3427e5c6.chunk.js.map": "/go-nomad/static/js/2.3427e5c6.chunk.js.map",
     "index.html": "/go-nomad/index.html",
-    "precache-manifest.20d16c4a24b7ce097fd260c6b50f84b5.js": "/go-nomad/precache-manifest.20d16c4a24b7ce097fd260c6b50f84b5.js",
+    "precache-manifest.297662f439990fe8723323d34b1e381a.js": "/go-nomad/precache-manifest.297662f439990fe8723323d34b1e381a.js",
     "service-worker.js": "/go-nomad/service-worker.js",
     "static/css/2.16a4541a.chunk.css.map": "/go-nomad/static/css/2.16a4541a.chunk.css.map",
     "static/css/main.9ebb7a61.chunk.css.map": "/go-nomad/static/css/main.9ebb7a61.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.16a4541a.chunk.css",
     "static/js/2.3427e5c6.chunk.js",
     "static/css/main.9ebb7a61.chunk.css",
-    "static/js/main.5888bffd.chunk.js"
+    "static/js/main.6147f4b2.chunk.js"
   ]
 }
