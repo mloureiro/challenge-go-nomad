@@ -80,6 +80,7 @@ export const findFlight = (fetcher) => ({
 	fromCity,
 	toCity,
 	fromDate, // JS date object
+	toDate, // JS date object
 	currency = 'EUR', // currency code: EUR, USD, GBP, ...
 	limit = 10,
 	sort = 'price', // price, duration
@@ -94,6 +95,7 @@ export const findFlight = (fetcher) => ({
 			to_type: 'city',
 			flyFrom_type: 'city',
 			date_from: formatDate(fromDate),
+			date_to: formatDate(toDate),
 			curr: currency,
 			limit,
 			sort,
