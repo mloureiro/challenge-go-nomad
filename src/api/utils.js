@@ -13,3 +13,15 @@ export const buildUrl = ({ url, path, query }) => {
 
 	return `${url}${urlSeparator}${path}${querySeparator}${query}`;
 };
+
+export const createSingleton = (callback) => {
+	let singleton = null;
+
+	return (...props) => {
+		if (!singleton) {
+			singleton = callback(...props);
+		}
+
+		return singleton;
+	};
+};

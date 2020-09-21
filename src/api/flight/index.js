@@ -1,9 +1,10 @@
+import { createSingleton } from '../utils';
 import { client as baseClient } from './client';
 import { findAirport } from './findAirport';
 import { findCity } from './findCity';
 import { findFlight } from './findFlight';
 
-export const flightApi = () => {
+export const flightApi = createSingleton(() => {
 	const client = baseClient();
 
 	return {
@@ -11,4 +12,4 @@ export const flightApi = () => {
 		findCity: findCity(client),
 		findFlight: findFlight(client),
 	};
-};
+});
