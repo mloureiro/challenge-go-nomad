@@ -1,8 +1,11 @@
 import React from 'react';
+import { HomePage } from './pages/Home';
 
 function App() {
 	return (
-		<h1>Go Nomad</h1>
+		// currently we only have 1 page
+		// so we don't even need a router
+		<HomePage />
 	);
 }
 
