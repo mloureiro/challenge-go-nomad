@@ -1,0 +1,47 @@
+.route--wrapper > li {
+  display: flex;
+  align-items: center;
+}
+
+.route--wrapper > li > span + span {
+  margin-left: 0.5em;
+}
+
+.route--date--start,
+.route--date--end {
+  font-size: 0.8em;
+}
+
+.route--side-connection {
+  margin: 0.5em;
+  padding: 0.25em;
+  border-radius: 1em;
+  background-color: #909090;
+}
+
+.route--detail-tags .route--side-connection {
+  margin: 0 0.7em;
+  height: 1.5em;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  padding: 0;
+}
+
+.route--departure--location-code,
+.route--arrival--location-code {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.route--duration,
+.route--no-stops,
+.route--stops {
+  padding: 0.25em 0.5em;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 1em;
+}
+
+.route--stops {
+  border: 1px solid #cacaca;
+}
