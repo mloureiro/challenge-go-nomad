@@ -1,0 +1,72 @@
+.flight--main-route {
+  flex: 1 1 auto;
+}
+
+.flight--main-side {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+
+.flight--main-side--book {
+  margin-top: 1em;
+}
+
+.flight--itinerary {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -0.5em;
+}
+
+.flight--itinerary[open] {
+  margin-bottom: 0;
+}
+
+.flight--itinerary:not([open]) {
+  margin-bottom: -0.5em;
+}
+
+.flight--itinerary > summary {
+  list-style-type: none;
+  max-width: fit-content;
+  margin: 0 auto 0.5em;
+}
+
+.flight--itinerary > summary::-webkit-details-marker {
+  display: none;
+}
+
+.flight--itinerary[open] > summary::before {
+  content: 'Hide route details';
+}
+
+.flight--itinerary:not([open]) > summary::before {
+  content: 'Show route details';
+}
+
+.flight--single-route + .flight--single-route {
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  border-top: 1px solid #f0f0f0;
+}
+
+@media (min-width: 24rem) and (max-width: 30rem) {
+  .flight--wrapper {
+    max-width: 24rem;
+  }
+}
+
+@media (min-width: 30rem) {
+  .flight--wrapper {
+    max-width: 30rem;
+  }
+}
+
+.price {
+  font-size: 2em;
+}
+
+.price--currency {
+  font-size: 0.7em;
+}
