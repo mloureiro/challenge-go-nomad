@@ -1,0 +1,5 @@
+.search-input-with-selection--box {
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+}
