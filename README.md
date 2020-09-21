@@ -1,7 +1,22 @@
 # Go Nomad
 
 
-**Disclaimer:** couldn't finish within 4 hours, if I had stopped at that point I would only have the API clients, and the UI for the weather forecast almost finished, but none of the integration, nor the flight details UI, to _"finish"_ the project I took somewhere **from 6 to 8 hours** to finish it.
+### What is this?
+
+This is an assignment for a hiring process.
+
+The basic topic is that there is a company with offices in 3 locations, and employees would like to be able to choose their next office based on weather, cheap flight or both.
+
+The requirements are:
+- it's up to the candidate, as long as it fulfills the above
+
+Suggestions:
+- use [AccuWeather API](https://developer.accuweather.com) or similar
+- use [Kiwi API](https://docs.kiwi.com) or similar
+- do not use more than 4 hours to finish
+    (_"...not possible to implement all aspects... this is why we suggest to focus on delivering a functional solution"_)
+
+> **Disclaimer:** couldn't finish within 4 hours, if I had stopped at that point I would only have the API clients, and the UI for the weather forecast almost finished, but none of the integration, nor the flight details UI, to _"finish"_ the project I took somewhere **from 6 to 8 hours** to finish it.
 
 
 ### How to run the project
